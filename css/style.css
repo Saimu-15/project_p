@@ -1,0 +1,603 @@
+/* common css start */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.container{
+    width:1200px;
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.section_info{
+    text-align: center;
+}
+
+.section_info h2{
+    font-size: 30px;
+    color: #566366;
+    text-transform: uppercase;
+}
+
+.section_info p{
+    font-size: 18px;
+    color: #919191;
+}
+/* common css end */
+
+/* nav section css start */
+nav .container{
+    width: 1200px;
+    display: flex;
+    align-items: center;
+}
+nav{
+    background: #333333;
+}
+.logo{
+    width: 15%;
+}
+nav .logo img{
+    display: block;
+}
+.menu{
+    width: 85%;
+}
+.menu ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+.menu ul li a{
+    font-size: 16px;
+    color: #fff;
+    display: inline-block;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 27px 20px;
+    transition: .5s;
+}
+.menu ul li:hover a{
+    color: #2ecc71;
+}
+/* nav section css end */
+
+/*banner section css strt*/
+#banner{
+    background: url(../img/banner_bg.jpg);
+    height: 1000px;
+    background-size: cover;
+    background-position: center;
+}
+
+#banner .container{
+    height: 100%;
+    text-align: center;
+}
+
+#banner .row{
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+#banner .banner_content h1{
+    font-size: 60px;
+    color: #ffffff;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-top: 2px solid #ffffff;
+    border-bottom: 1px solid #ffffff;
+    margin: 50px auto;
+}
+
+#banner .banner_content a{
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #ffffff;
+    background: transparent;
+    border: 2px solid #ffffff;
+    padding: 15px 42px;
+}
+/*banner section css end*/
+
+/*info section css strt*/
+#info{
+    padding: 50px 0;
+}
+#info .information{
+    width: calc(100% / 3);
+}
+#info .information h2{
+    font-size: 30px;
+    font-weight: 700;
+    color: #566366;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+#info .information p{
+    font-size: 18px;
+    color: #919191;
+}
+/*info section css end*/
+
+/*about section css strt*/
+#about{
+    background-color: #f2f2f1;
+    display: flex;
+}
+#about .image{
+    width: 30%;
+    height: 100%;
+}
+#about .image img{
+    width: 100%;
+}
+#about .about-info{
+    width: 70%;
+    padding: 50px 80px;
+}
+#about .section_info h2{
+    font-weight: 700;
+    margin-bottom: 50px;
+    text-align: left;
+}
+#about .section_info p{
+    text-align: left;
+}
+#about .about-bottom{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px 0;
+    width: 100%;
+}
+#about .about-bottom .bottom-info{
+    width: 50%;
+    display: flex;
+    align-items: flex-start;
+    padding: 0 60px 38px 0;
+}
+#about .about-bottom .bottom-info img{
+   padding-right: 28px;
+}
+#about .about-bottom .bottom-info h4{
+    padding-bottom: 25px;
+    font-size: 22px;
+    color: #566366;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+#about .about-bottom .bottom-info p{
+    font-size: 18px;
+    color: #919191;
+}
+/*about section css end*/
+
+/* skill section css start */
+#skill{
+    padding: 50px 0;
+}
+#skill .content{
+    display: flex;
+    align-items: center;
+}
+#skill .left{
+    width: 50%;
+}
+#skill .left h3{
+    text-align: left;
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #566366;
+}
+#skill .left p{
+    font-size: 18px;
+    color: #566366;
+    margin: 25px 0;
+    margin-bottom: 50px;
+}
+#skill .left a{
+    font-size: 18px;
+    color: #33cc66;
+    font-weight: 700;
+    text-transform: uppercase;
+    background-color: transparent;
+    border: 2px solid #33cc66;
+    padding:  19px 37px;
+}
+#skill .right{
+    width: 50%;
+    margin-left: 90px;
+}
+#skill .right .full{
+    width: 100%;
+    background: #f1f1f1;
+}
+#skill .right h4{
+    font-size: 22px;
+    color: #566366;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-top: 39px;
+    margin-bottom: 19px;
+}
+#skill .right .photoshop{
+    width: 90%;
+    background: #2dcb71;
+    text-align: right;
+}
+#skill .right .illustrator{
+    width: 80%;
+    background: #2dcb71;
+    text-align: right;
+}
+#skill .right .html{
+    width: 90%;
+    background: #2dcb71;
+    text-align: right;
+}
+#skill .right .php{
+    width: 70%;
+    background: #2dcb71;
+    text-align: right;
+}
+/* skill section css end */
+
+/*resume section css start*/
+#resume{
+    background: #f1f1f1;
+    padding-top: 50px;
+    padding-bottom: 70px;
+    position: relative;
+}
+#resume .resume-info{
+    text-align: center;
+}
+#resume .resume-info h3{
+    font-size: 30px;
+    color: #566366;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+#resume .resume-info p{
+    font-size: 18px;
+    color: #566366;
+    padding: 40px;
+}
+#resume .resume-info a{
+    font-size: 18px;
+    color: #33cc66;
+    font-weight: 700;
+    text-transform: uppercase;
+    background-color: transparent;
+    border: 2px solid #33cc66;
+    padding:  15px;
+}
+#resume::after {
+    position: absolute;
+    content: '';
+    width: 60px;
+    height: 60px;
+    background: #f1f1f1;
+    bottom: -20px;
+    left: 50%;
+    transform: rotate(45deg);
+}
+/*resume section css end*/
+
+/*education section css start*/
+#education{
+    margin-top: 90px;
+}
+#education .edu-info{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 15px;
+}
+#education .left{
+    width: 50%;
+}
+#education .left h3{
+    font-size: 30px;
+    color: #566366;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-bottom: 50px;
+}
+#education .left p{
+    font-size: 18px;
+    color: #566366;
+}
+#education .right{
+    width: 50%;
+}
+#education .right h4{
+    font-size: 22px;
+    color: #566366;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 50px;
+    margin-bottom: 21px;
+}
+#education .right p{
+    font-size: 18px;
+    color: #566366;
+    margin-bottom: 21px;
+}
+#education .gpa{
+    background: #2dcb71;
+    color: #fff;
+    display: inline;
+    padding: 10px;
+}
+#education .hr{
+    color: #919191;
+}
+#education .right-info{
+    margin-top: 20px;
+}
+#education .right-info p{
+    margin-top: 20px;
+    padding-bottom: 99px;
+}
+#education .right .info-2{
+    margin-top: 98px;
+}
+/*education section css end*/
+
+/*w-experience section css start*/
+#w-experience{
+    margin-top: 90px;
+}
+#w-experience .edu-info{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 15px;
+}
+#w-experience .left{
+    width: 50%;
+}
+#w-experience .left h3{
+    font-size: 30px;
+    color: #566366;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-bottom: 50px;
+}
+#w-experience .left p{
+    font-size: 18px;
+    color: #566366;
+}
+#w-experience .right{
+    width: 50%;
+}
+#w-experience .right h4{
+    font-size: 22px;
+    color: #566366;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 50px;
+    margin-bottom: 21px;
+}
+#w-experience .right p{
+    font-size: 18px;
+    color: #566366;
+    margin-bottom: 21px;
+}
+#w-experience .gpa{
+    background: #2dcb71;
+    color: #fff;
+    display: inline;
+    padding: 10px;
+}
+#w-experience .hr{
+    color: #919191;
+}
+#w-experience .right-info{
+    margin-top: 20px;
+}
+#w-experience .right-info p{
+    margin-top: 20px;
+    padding-bottom: 99px;
+}
+#w-experience .right .info-2{
+    margin-top: 98px;
+}
+/*w-experience section css End*/
+
+/*EXP-BOX section css start*/
+#exp-box{
+    background: #f1f1f1;
+}
+#exp-box .box-info{
+    text-align: center;
+    padding: 50px;
+}
+#exp-box .box-info h4{
+    font-size: 18px;
+    color: #566366;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding-top: 30px;
+    
+}
+#exp-box .container p{
+    font-size: 24px;
+    color: #566366;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#exp-box .image{
+    padding: 48px 0;
+}
+/*EXP-BOX section end*/
+
+/* portfolio section css start */
+#portfolio{
+    padding: 80px 0;
+}
+#portfolio .container .section_info{
+    text-align: center;
+}
+#portfolio .section_info h2{
+    font-size: 30px;
+    font-weight: 700;
+    color: #566366;
+    text-transform: uppercase;
+}
+#portfolio .section_info p{
+    font-size: 18px;
+    color: #919191;
+    padding: 48px 80px;
+}
+#portfolio .my-portfolio{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+#portfolio .my-portfolio .portfolio-item{
+    margin-top: 39px;
+}
+#portfolio .portfolio-item{
+    width: 33.33%;
+    position: relative
+}
+#portfolio .portfolio-item img{
+    display: block;
+}
+#portfolio .portfolio-item .overlay{
+    position: absolute;
+    background: rgba(45, 203, 112, 0.55);
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.5s;
+}
+#portfolio .portfolio-item:hover .overlay{
+    opacity: 1;
+    visibility: visible;
+}
+/* portfolio section css end */
+
+/*footer section css start*/
+#footer{
+    background: #252d2f;
+    margin: 100px 0;
+}
+#footer .footer-info{
+    color: #fff;
+    width: 50%;
+}
+#footer .footer-info h2{
+    font-size: 30px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+    margin: 96px 0 40px;
+}
+#footer .footer-info p{
+    font-size: 18px;
+    color: #919191;
+    width: 550px;
+}
+#footer .footer-info address{
+    font-size: 18px;
+    color: #919191;
+    font-weight: 300;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+#footer .footer-form{
+    width: 50%;
+}
+#footer .container{
+    display: flex;
+    flex-wrap: wrap;
+}
+#footer .footer-form input,
+#footer .footer-form textarea{
+    display: block;
+    width: 100%;
+    background: #4b5456;
+    border: none;
+    font-size: 18px;
+    padding: 15px 20px;
+    color: #fff;
+}
+#footer .footer-form label{
+    display: block;
+    margin: 39px 0 19px;
+    color: #fff;
+}
+#footer .footer-form label span{
+    color: #919191;
+}
+#footer .footer-form textarea{
+    resize: vertical;
+    height: 278px;
+}
+#footer .footer-form button{
+    background: #191f21;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff;
+    margin-top: 40px;
+    margin-bottom: 100px;
+    padding: 22PX 52px;
+    border: none;
+}
+#footer .footer_bottom{
+    height: 80px;
+    background: #191f21;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #4b5456;
+    text-align: center;
+    border-top: 1px solid #252d2f;
+    box-shadow: 0px -20px 20px -15px inset rgba(0,0,0,0.30);
+}
+#footer .footer_bottom p{
+    padding: 10px 0;
+}
+#footer .footer_bottom p a{
+    color: #4b5456;
+}
+#footer .social_icon .row{
+    justify-content: center;
+}
+#footer .social_icon ul li{
+    margin-right: 10px;
+}
+#footer .social_icon ul li a i{
+    font-size: 14px;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 50%;
+    border: 1px solid #4b5456;
+    background: #4b5456;
+    text-align: center;
+    color: #191f21;
+    transition: 0.6s;
+}
+#footer .social_icon ul li:hover a i{
+    color: #fff;
+}
+/*footer section css end*/
